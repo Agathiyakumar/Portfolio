@@ -1,0 +1,138 @@
+body{
+  padding:0 1% 2% 2%;
+}
+.Nav{
+
+  position: sticky;
+  top:0px;
+ border-top: 1px solid;
+ border-bottom: 1px solid;
+ background-color: white;
+  
+}
+.name{
+  margin-top: 100px;
+  font-size: 2vw;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+.about{
+  margin-top: 100px;
+  padding-top:100px ;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+
+}
+.portfolio{
+ font-size: 30px;
+  position: fixed;
+  top:0;
+  right: 10px;
+}
+.navele{
+  display: flex;
+  flex-direction: row;
+
+}
+.navlink{
+
+  padding: 1%;
+  color: grey;
+ 
+}
+.skillrow{
+  margin-top: 100px;
+  display: flex;
+  flex-direction: row;
+  padding: 5%;
+}
+.skillele{
+  margin: auto;
+  width: 10%;
+  padding: 2%;
+  background-color: rgb(195, 34, 212);
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+}
+.aboutele{
+  
+ padding: 5%;
+}
+.skills{
+  width: 100%;
+  height: 100vh;
+  padding-top: 90px;
+  text-align: center;
+}
+
+*{
+  a{
+    text-decoration: none;
+  }
+}
+.projects{
+  
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  
+}
+
+.project1{
+  margin: auto;
+  border-radius:12px ;
+  padding: 1%;
+  background-color: purple;
+  color:white;
+  width:50%
+}
+.certificates{
+
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.certificate1{
+  background-color:purple;
+  color: white;
+  width: 25%;
+  border-radius: 10px;
+  margin: auto;
+  text-align: center;
+}
+.webimg{
+  width: 100%;
+ margin: auto;
+
+}
+.pro{
+  margin: auto;
+  padding: 5%;
+  width:50%;
+  height: 100px;
+}
+.cer{
+padding: 5%;
+}
+.contacts{
+  position: relative;
+  text-align: center;
+}
+.personal{
+
+  padding: 5%;
+}
+.social{
+  padding-bottom: 5%;
+}
+.personalillus{
+  position: absolute;
+  top: 0;
+  right: 50px;
+  z-index: -1;
+  opacity: 0.8;
+}
+
