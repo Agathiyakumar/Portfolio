@@ -168,4 +168,7 @@ padding: 5%;
     margin: 0;
     height: 70vh;
   }
+  .navlink{
+    font-size: 10px;
+  }
 }
