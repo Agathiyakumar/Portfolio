@@ -32,7 +32,7 @@ return(
     <>
     <div className="Nav">
     <div className="mobile-menu" ><RxHamburgerMenu onClick={navelClick} style={{height:'30px'}}/></div> 
-        <div className={navel?'navele':'navel-hov'}>
+        <div className={navel?'navel-hov':'navele'}>
           
             <a className="navlink" href="/">
             <h3><FcHome />&nbsp;Home</h3></a>
