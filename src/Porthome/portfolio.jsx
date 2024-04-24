@@ -21,7 +21,7 @@ const Portfolio=()=>{
     
    const [navel,setNavel]=useState(false);
    const navelClick=()=>{
-    setNavel(navel);
+    setNavel(!navel);
    }
     useEffect(() => {
         AOS.init(); 
@@ -31,7 +31,7 @@ const Portfolio=()=>{
 return(
     <>
     <div className="Nav">
-    <div className="mobile-menu" ><RxHamburgerMenu onClick={navelClick} style={{height:'30px'}}/></div> 
+    <div className="mobile-menu" ><RxHamburgerMenu onClick={navelClick} style={{height:'10px'}}/></div> 
         <div className={navel?'navel-hov':'navele'}>
           
             <a className="navlink" href="/">
