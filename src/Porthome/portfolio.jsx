@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
@@ -13,14 +13,16 @@ import { CiMail } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
-
+import { RxHamburgerMenu } from "react-icons/rx";
 
 
 const Portfolio=()=>{
-
+ 
     
-   
-
+   const [navel,setNavel]=useState(false);
+   const navelClick=()=>{
+    setNavel(!navel);
+   }
     useEffect(() => {
         AOS.init(); 
         AOS.refresh();
@@ -29,16 +31,18 @@ const Portfolio=()=>{
 return(
     <>
     <div className="Nav">
-        <div className="navele">
+    <div className="mobile-menu" ><RxHamburgerMenu onClick={navelClick} style={{height:'30px'}}/></div> 
+        <div className={navel?'navele':'navel-hov'}>
+          
             <a className="navlink" href="/">
-            <h3 ><FcHome />&nbsp;Home</h3></a>
+            <h3><FcHome />&nbsp;Home</h3></a>
             <a className="navlink" href="#about1">
             <h3><FcAbout />&nbsp;About</h3></a>
             <a className="navlink" href="#skill">
             <h3 ><GiSkills style={{color:"red"}}/>&nbsp;Skills</h3></a>
             <a className="navlink" href="#contact">
             <h3 ><FcContacts />&nbsp;Contact</h3></a>
-            <h2 className="navlink portfolio" style={{color:"blueviolet"}}>PortFolio</h2>
+           
         </div>
     </div>
       
@@ -121,9 +125,7 @@ return(
         </div>
         <div className="social">
         <p ><a href="https://github.com/Agathiyakumar"><FaGithub style={{width:"100px" , height:"50px" , color:"black"}} /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/agathiya-kumar-s-d-90528626a/"><FaLinkedin style={{width:"100px" , height:"50px" , color:"black"}}/></a>&nbsp;&nbsp;<a href="https://www.instagram.com/_agathi_12/"><FaInstagram style={{width:"100px" , height:"50px" , color:"black"}}/></a></p>
-        <div className="personalillus">
-    <img width="400px" src="https://static.vecteezy.com/system/resources/previews/006/369/211/non_2x/illustration-of-custom-clearance-in-flat-style-vector.jpg" alt=""/>
-   </div>
+        
     </div>
    </div>
    
