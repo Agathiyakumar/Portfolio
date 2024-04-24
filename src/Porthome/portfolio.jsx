@@ -21,7 +21,7 @@ const Portfolio=()=>{
     
    const [navel,setNavel]=useState(false);
    const navelClick=()=>{
-    setNavel(!navel);
+    setNavel(navel);
    }
     useEffect(() => {
         AOS.init(); 
