@@ -27,11 +27,11 @@ const Portfolio=()=>{
         AOS.init(); 
         AOS.refresh();
       }, []);
-
+      
 return(
     <>
     <div className="Nav">
-    <div className="mobile-menu" ><RxHamburgerMenu onClick={navelClick} style={{height:'10px'}}/></div> 
+    <div className="mobile-menu" ><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png" onClick={navelClick} style={{width:'30px'}} /></div> 
         <div className={navel?'navel-hov':'navele'}>
           
             <a className="navlink" href="/">
@@ -87,7 +87,7 @@ return(
     <div id="project" className="projects">
         <h1>PROJECTS</h1>
         <div className="pro">
-        <div className="project1" data-aos="fade-up" data-aos-duration="1000">
+        <div className="project1" data-aos="zoom-in" data-aos-duration="1000">
             <div className="webimg">
             <img  src={webimg} alt="web image" style={{width:"100%" , height:"auto"}}/>
             </div>
@@ -105,7 +105,7 @@ return(
 
     <div id="certificate" className="certificates">
         <h1>Certifications</h1>
-        <div className="cer">
+        <div className="cer" data-aos="zoom-out" data-aos-duration="1000">
 
         <div className="certificate1">
             <h1 style={{padding:"5%"}}>Azure az-900<br></br><span style={{fontSize:"20px",padding:"1%"}}>Microsoft certification<br>
@@ -123,7 +123,7 @@ return(
             <h3><CiMail />&nbsp;Mail: harishagathi@gmail.com</h3>
         </p>
         </div>
-        <div className="social">
+        <div className="social" data-aos="zoom-in" data-aos-duration="1300">
         <p ><a href="https://github.com/Agathiyakumar"><FaGithub style={{width:"100px" , height:"50px" , color:"black"}} /></a>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/agathiya-kumar-s-d-90528626a/"><FaLinkedin style={{width:"100px" , height:"50px" , color:"black"}}/></a>&nbsp;&nbsp;<a href="https://www.instagram.com/_agathi_12/"><FaInstagram style={{width:"100px" , height:"50px" , color:"black"}}/></a></p>
         
     </div>

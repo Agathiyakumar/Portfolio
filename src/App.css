@@ -110,7 +110,7 @@
 .pro{
   margin: auto;
   padding: 5%;
-  width:50%;
+  width:40%;
   height: 100px;
 }
 .cer{
@@ -160,15 +160,19 @@ padding: 5%;
   }
   .certificate1{
     width: 100%;
+    margin: 0;
   }
   .contacts{
     margin: 0;
   }
-  .certificates{
-    margin: 0;
-    height: 70vh;
-  }
+  
   .navlink{
     font-size: 10px;
+    padding: 0;
+   
+  }
+  .pro{
+    width: 80%;
+    margin: 0;
   }
 }
