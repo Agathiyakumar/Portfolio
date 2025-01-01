@@ -1,178 +1,75 @@
-
-.Nav{
- border-top: 1px solid;
- border-bottom: 1px solid;
- background-color: white;
-  
-}
-
-.mobile-menu{
-  visibility: hidden;
-}
-.name{
-  margin-top: 100px;
-  text-align: center;
-  width: 100%;
-  font-size: clamp(1rem, -0.4286rem + 4.5714vw, 3rem);
-  height: 100vh;
-}
-.about{
-  margin-top: 200px;
-  padding-top:100px ;
-  text-align: center;
-  height: 100vh;
-  width: 100%;
-
-}
-.portfolio{
- font-size: 30px;
-  position: fixed;
-  top:0;
-  right: 10px;
-}
-.navele{
-  display: flex;
-  flex-direction: row;
-
-}
-.navlink{
-
-  padding: 1%;
-  color: grey;
- 
-}
-.skillrow{
-  margin-top: 100px;
-  display: flex;
-  flex-direction: row;
-  padding: 5%;
-}
-.skillele{
-  margin: auto;
-  width: 10%;
-  padding: 2%;
-  background-color: rgb(195, 34, 212);
-  text-align: center;
-  color: white;
-  border-radius: 20px;
-}
-.aboutele{
-  
- padding: 5%;
-}
-.skills{
-  width: 100%;
-  height: 100vh;
-  padding-top: 90px;
-  text-align: center;
-}
-
 *{
-  a{
-    text-decoration: none;
-  }
+  margin: 0;
+  padding: 0;
 }
-.projects{
-  
-  width: 100%;
+.bg{
+  width: 100vw;
   height: 100vh;
-  text-align: center;
+}
+.logo{
+  font-size: 2vh;
   
 }
-
-.project1{
-  margin: auto;
-  border-radius:12px ;
-  padding: 1%;
-  background-color: purple;
-  color:white;
-  width:50%
-}
-.certificates{
-  margin-top: 200px;
-  width: 100%;
-  height: 100vh;
+.Name{
+  font-size: 6vh;
   text-align: center;
 }
-.certificate1{
-  background-color:purple;
-  color: white;
-  width: 25%;
-  border-radius: 10px;
-  margin: auto;
-  text-align: center;
+.About{
+  display: flex;
 }
-.webimg{
-  width: 100%;
- margin: auto;
-
+#profile{
+  margin-left: 25%;
+  margin-top: 10%;
+  justify-content: center;
+  align-items: center;
+  width: 20rem;
+  border-radius: 50%;
+  opacity: 0.9;
 }
-.pro{
-  margin: auto;
-  padding: 5%;
-  width:40%;
-  height: 100px;
+.About{
+  display: flex;
 }
-.cer{
-padding: 5%;
+.About-content{
+  
+  margin-top: 14%;
+  padding: 2rem;
 }
-.contacts{
-  position: relative;
-  text-align: center;
+#greetings{
+  font-size: 4vh;
 }
-.personal{
-
-  padding: 5%;
-}
-.social{
-  padding-bottom: 5%;
+#intro{
+  margin-top: 1rem;
+  font-size: 2.5vh;
 }
 
 
-@media(max-width:988px){
-  .mobile-menu{
-    visibility: visible;
+@media only screen and (max-width: 480px) {
+  .logo{
+    font-size: 12px ;
   }
-  .navele{
-    position: absolute;
-    top:-100px;
-    transition: top 0.5s;
+  #profile{
+    margin-left: 15%;
+    margin-top: 30%;
+    justify-content: center;
+    align-items: center;
+    width: 15rem;
+    border-radius: 50%;
   }
-  .navel-hov{
-    top: 100px;
-    transition: top 0.5s;
+  #greetings{
+    margin-left: 6rem;
+    font-size: 5vh;
+    display: flex;
   }
-  .about{
-    margin-top: 0;
+  .About-content{
+    margin-top: 5%
   }
-  .skillrow{
-    flex-direction: column ;
+  .About{
+    display: flex;
+    flex-direction: column;
   }
-  .skillele{
-    width: 50%;
-    padding: 4%;
-    margin-top: 10px;
-  }
-  .project1{
-    margin: 0;
-    width: 100%;
-    padding: 7%;
-  }
-  .certificate1{
-    width: 100%;
-    margin: 0;
-  }
-  .contacts{
-    margin: 0;
+  #intro{
+    font-size: 2.5vh;
+    margin-left: 1.5rem
   }
   
-  .navlink{
-    font-size: 10px;
-    padding: 0;
-   
-  }
-  .pro{
-    width: 80%;
-    margin: 0;
-  }
 }
