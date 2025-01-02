@@ -1,0 +1,28 @@
+#Nav-btn{
+    
+    background-color: transparent;
+    border: none;
+    padding: 2rem;
+    font-size: 2vh;
+   
+}
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.logo{
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+@media only screen and (max-width: 480px) {
+#Nav-btn{
+    padding: 1.2rem;
+    font-size: 16px
+}
+.logo{
+    margin-top: 1.2rem;
+    font-size: 16px;
+    margin-right:1rem ;
+}
+}

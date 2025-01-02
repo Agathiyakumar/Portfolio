@@ -48,7 +48,7 @@
     font-size: 12px ;
   }
   #profile{
-    margin-left: 25%;
+    margin-left: 18%;
     margin-top: 30%;
     justify-content: center;
     align-items: center;
@@ -56,7 +56,7 @@
     border-radius: 50%;
   }
   #greetings{
-    margin-left: 10rem;
+    margin-left: 7rem;
     font-size: 5vh;
     display: flex;
   }
@@ -68,7 +68,7 @@
     flex-direction: column;
   }
   #intro{
-    font-size: 2.5vh;
+    font-size: 20px;
     margin-left: 1.5rem
   }
   

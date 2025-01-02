@@ -1,6 +1,7 @@
 import React ,{ useEffect} from "react";
 import profile from '../images/profile.jpg';
 import CLOUDS from 'vanta/src/vanta.clouds';
+import Nav from "./Components/Navbar";
 
 const Portfolio=()=>{
 
@@ -10,7 +11,7 @@ const Portfolio=()=>{
   mouseControls: true,
   touchControls: true,
   gyroControls: false,
-  minHeight: 200.00,
+  minHeight: 200.00,     
   minWidth: 200.00,
   skyColor: 0x67b5cc,
   sunColor: 0xc5852b,
@@ -19,13 +20,14 @@ const Portfolio=()=>{
         })
     },[])
   
-    
+   
     return(
+        
         <div className="bg" id="vanta">
+            <Nav/>
         <div className="Main">
-            <div className="Nav">
-                <h3 className="logo">PORTFOLIO</h3>
-            </div>
+            
+           
                 
                     
                 
