@@ -1,0 +1,41 @@
+.Home{
+    width: 100vw;
+    height: 100vh;
+}
+.welcome{
+    margin-top: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#main{
+    font-size: 10vh;
+    color: white;
+    
+}
+#main::first-letter{
+    color: yellow;
+}
+#sub{
+    font-size: 3vh;
+    padding: 2rem;
+    color:beige;
+}
+
+@media only screen and (max-width: 480px) {
+.welcome{
+    
+    margin-top: 40%;
+    
+}
+#main{
+    margin-left: 1rem;
+}
+#sub{
+   font-size: 16px;
+   margin-top: 150px; 
+   padding: 1rem;
+}
+
+}
