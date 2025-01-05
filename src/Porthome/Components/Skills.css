@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+}
+#skill{
+     width: 8rem;
+     border-radius:50%;
+     height: 8rem;
+     margin-right: 5rem;
+}
+.Skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.mark{
+    margin-top: 7rem;
+}
+.Skill-name{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding: 5rem;
+    text-align: center;
+    justify-content: center;
+    
+}
+#skill-name:hover{
+    transform: scale(1.5);
+}
+#skill-name{
+    padding: 3rem;
+    transition: transform .2s;
+}
+@media only screen and (max-width: 480px) {
+.Skill-name{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+}

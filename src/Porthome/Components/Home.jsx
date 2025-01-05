@@ -21,10 +21,16 @@ const Home=()=>{
     return(
         <div className="Home" id='home'>
             <Nav/>
+            
             <div className="welcome">
+                
                 <h1 id="main">Hi</h1>
                 <p id="sub">I am a skilled and passionate web designer with experience in creating <br></br>visually appealing and user-friendly websites. </p>
             </div>
+            <marquee width="100%" scrollamount="10">
+                For more Details and about Projects Contact email: harishagathi@gmail.com 
+               
+            </marquee>
         </div>
     )
 }

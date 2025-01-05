@@ -7,13 +7,16 @@ const Nav=()=>{
     function HandleProfile(){
         navigate("/profile");
     }
+    function HandleSkills(){
+        navigate("/skills");
+    }
     return(
             
             <div className="Navbar">
                 
                 <button id="Nav-btn" onClick={HandleProfile}>Profile</button>
-                <button id="Nav-btn">Interest</button>
-                <button id="Nav-btn">Skills</button>
+                <button id="Nav-btn" onClick={HandleSkills}>Skills</button>
+                <button id="Nav-btn">Contact</button>
                 <div className="Nav">
         <h3 className="logo">PORTFOLIO</h3>
     </div>

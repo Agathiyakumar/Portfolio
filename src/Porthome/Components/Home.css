@@ -22,6 +22,12 @@
     padding: 2rem;
     color:beige;
 }
+marquee{
+    margin-top: 17rem;
+    color: white;
+    font-size: 2vh;
+    
+}
 
 @media only screen and (max-width: 480px) {
 .welcome{
