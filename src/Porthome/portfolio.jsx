@@ -1,6 +1,6 @@
 import React ,{ useEffect} from "react";
-import profile from '../images/profile.jpg';
-import CLOUDS from 'vanta/src/vanta.clouds';
+import profile from '../images/agathi1.jpg';
+import CLOUDS from 'vanta/src/vanta.fog';
 import Nav from "./Components/Navbar";
 
 const Portfolio=()=>{
@@ -8,15 +8,18 @@ const Portfolio=()=>{
     useEffect(()=>{
         CLOUDS({
             el:'#vanta',
-  mouseControls: true,
-  touchControls: true,
-  gyroControls: false,
-  minHeight: 200.00,     
-  minWidth: 200.00,
-  skyColor: 0x67b5cc,
-  sunColor: 0xc5852b,
-  sunGlareColor: 0xd66037,
-  sunlightColor: 0xc07b37
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            highlightColor: 0x0,
+            midtoneColor: 0x0,
+            lowlightColor: 0x0,
+            baseColor: 0x312b2b,
+            blurFactor: 0.7,
+            zoom: 1.20,
+            speed:2.10
         })
     },[])
   
@@ -38,8 +41,14 @@ const Portfolio=()=>{
                         <span id="greetings">Hello.</span>
                         <p id="intro">A common man with superpowers HTML,CSS,React and Javascript to defend the Web</p>
                     </div>
+                  
 </div>
 </div>
+                    <div className="about">
+                        <p id="about-sub">I'm Agathiya Kumar S D, a passionate web developer eager to create exceptional, user-interface
+                             web experiences and to contribute to a dynamic team and leverage modern design principles and technologies
+                              to drive engaging and efficient solutions. </p>
+                    </div>
 </div>
        
     )

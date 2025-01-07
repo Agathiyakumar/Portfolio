@@ -15,26 +15,55 @@ body{
 .mark{
     margin-top: 7rem;
 }
+
 .Skill-name{
-    color: white;
     display: flex;
-    flex-direction: row;
-    padding: 5rem;
-    text-align: center;
     justify-content: center;
-    
+    align-items: center ;
+    margin-top: 7rem
 }
-#skill-name:hover{
-    transform: scale(1.5);
-}
-#skill-name{
-    padding: 3rem;
-    transition: transform .2s;
-}
+
+.skill-name {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-right: 2rem;
+    width: 10rem;
+    font-family: 'Iowan Old Style', 'Palatino Linotype', 'URW Palladio L', P052, serif;
+font-weight: normal;
+  }
+  
+  .skill-name:hover {
+    background-color: #fff;
+  }
+  
+  .skill-name:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  
 @media only screen and (max-width: 480px) {
 .Skill-name{
     display: flex;
     flex-direction: column;
     padding: 2rem;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+}
+.skill-name{
+    margin-top: 2rem;
 }
 }

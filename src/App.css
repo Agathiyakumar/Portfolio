@@ -6,46 +6,60 @@
   width: 100vw;
   height: 100vh;
 }
-.logo{
-  font-size: 2vh;
-  
-}
-.Name{
-  font-size: 6vh;
-  text-align: center;
-}
+
+
 .About{
   display: flex;
+  
 }
 #profile{
-  margin-left: 25%;
-  margin-top: 10%;
+  margin-left: 20%;
+  margin-top: 8%;
   justify-content: center;
   align-items: center;
-  width: 20rem;
+  width: 17rem;
+  height: 17rem;
   border-radius: 50%;
-  opacity: 0.9;
+  opacity: 0.8;
+ 
 }
 .About{
   display: flex;
 }
 .About-content{
   
-  margin-top: 14%;
+  margin-top: 12%;
   padding: 2rem;
 }
 #greetings{
   font-size: 4vh;
+  color: yellow;
 }
 #intro{
   margin-top: 1rem;
   font-size: 2.5vh;
+  color: white;
+  font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+font-weight: normal;
+}
+.about{
+  padding: 4rem;
+}
+#about-sub{
+  font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+font-weight: normal;
+font-size: 3vh;
+color: wheat;
 }
 
 
 @media only screen and (max-width: 480px) {
   .logo{
     font-size: 12px ;
+  }
+  .bg{
+    width: 100%;
+    height: auto;
   }
   #profile{
     margin-left: 18%;
@@ -70,6 +84,13 @@
   #intro{
     font-size: 20px;
     margin-left: 1.5rem
+  }
+  .about{
+    padding: 2rem;
+    margin-left: 1.5rem;
+  }
+  #about-sub{
+  font-size: 18px;
   }
   
 }

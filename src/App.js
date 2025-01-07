@@ -5,6 +5,7 @@ import Portfolio from './Porthome/portfolio';
 import Nav from './Porthome/Components/Navbar';
 import Home from './Porthome/Components/Home';
 import Skills from './Porthome/Components/Skills';
+import ContactUs from './Porthome/Components/Contact';
 
 function App() {
   
@@ -17,6 +18,8 @@ function App() {
           <Route  path='/profile' element={<Portfolio/>}/>
           <Route path='/navigation' element={<Nav/>}/>
           <Route path='/skills' element={<Skills/>}/>
+          <Route path='/home' element={<Home/>}/>
+          <Route path='/contact' element={<ContactUs/>}/>
         </Routes>
       </Router>
     </div>

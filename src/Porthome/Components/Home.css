@@ -3,16 +3,17 @@
     height: 100vh;
 }
 .welcome{
-    margin-top: 15rem;
+    margin-top: 12rem;
     display: flex;
     justify-content: center;
     align-items: center;
     
 }
 #main{
-    font-size: 10vh;
+    font-size: 20vh;
     color: white;
-    
+    font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
+font-weight: normal;
 }
 #main::first-letter{
     color: yellow;
@@ -20,13 +21,16 @@
 #sub{
     font-size: 3vh;
     padding: 2rem;
-    color:beige;
+    color:rgb(255, 255, 255);
+    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+font-weight: normal;
 }
 marquee{
     margin-top: 17rem;
     color: white;
     font-size: 2vh;
-    
+    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+font-weight: normal;    
 }
 #detail{
     font-size: 15px;

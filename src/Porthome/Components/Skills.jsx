@@ -1,12 +1,14 @@
 import React from "react";
 import '../Components/Skills.css';
 import css from '../Components/csslogo.webp';
+import Nav from "./Navbar";
 
 
 const Skills=()=>{
 
     return(
         <div className="Skills">
+            <Nav/>
             <marquee className="mark" scrollamount="15">
             <div className="skill-1">
             <img id="skill" src="https://images.seeklogo.com/logo-png/22/1/html5-with-wordmark-color-logo-png_seeklogo-224332.png?v=1957360629703259760"/>
@@ -18,12 +20,12 @@ const Skills=()=>{
             </div>
             </marquee>
             <div className="Skill-name">
-                <h2 id="skill-name">\ HTML5 /</h2>
-                <h2 id="skill-name">\ CSS3 /</h2>
-                <h2 id="skill-name">\ React /</h2>
-                <h2 id="skill-name">\ Javascript /</h2>
-                <h2 id="skill-name">\ MongoDB /</h2>
-                <h2 id="skill-name">\ Express js /</h2>
+            <button class="skill-name" role="button">HTML-5</button>
+            <button class="skill-name" role="button">CSS-3</button>
+            <button class="skill-name" role="button">React</button>
+            <button class="skill-name" role="button">Javascript</button>
+            <button class="skill-name" role="button">MongoDB</button>
+            <button class="skill-name" role="button">ExpressJS</button>
             </div>
             
         </div>
