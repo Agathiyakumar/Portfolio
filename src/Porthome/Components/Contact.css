@@ -1,3 +1,82 @@
 .Contact{
     color: white;
 }
+#Contact{
+    
+    width: 100vw;
+    height: 100vh;
+}
+.Contact-card{
+    width: 30rem;
+    height: 30rem;
+    
+    border-radius: 15px;
+    margin: 3rem 0rem 0rem 10rem;
+ 
+}
+#head{
+    font-size: 3vh;
+    font-family: ui-rounded, 'Hiragino Maru Gothic ProN', Quicksand, Comfortaa, Manjari, 'Arial Rounded MT', 'Arial Rounded MT Bold', Calibri, source-sans-pro, sans-serif;
+font-weight: normal;
+text-align: center;
+padding: 1rem;
+color: white;
+}
+#contact-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+#email{
+    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+font-weight: normal;
+color: white;
+
+}
+#Email{
+    color: white;
+}
+
+#linkedin{
+    width: 60px;
+    margin-left: 9rem;
+}
+#github{
+    width: 60px;
+    margin-left: 5rem;
+}
+#insta{
+    width: 50px;
+    margin-left: 9.3rem;
+    margin-top: 2rem;
+}
+#x{
+    width: 50px;
+    margin-left: 5.5rem;
+    margin-top: 2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .Contact-card{
+        width: 20rem;
+        height: 23rem;
+       background-color: black;
+        border-radius: 15px;
+        margin: 10rem 0rem 0rem 2.5rem;
+
+    }
+    #Email{
+        text-align: center;
+    }
+    #head{
+        font-size: 20px;
+    }
+    #linkedin{
+        margin-left: 4rem;
+    }
+    #insta{
+        margin-left: 4.5rem;
+    }
+}    

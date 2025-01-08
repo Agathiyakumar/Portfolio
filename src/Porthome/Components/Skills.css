@@ -1,6 +1,10 @@
 body{
     background-color: black;
 }
+#Skills{
+    width: 100vw;
+    height: 100vh;
+}
 #skill{
      width: 8rem;
      border-radius:50%;

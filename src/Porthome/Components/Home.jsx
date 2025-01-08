@@ -27,10 +27,7 @@ const Home=()=>{
                 <h1 id="main">Hi</h1>
                 <p id="sub">Welcome to my digital showcase, where you can discover my growing <br></br>      skills in front-end development, ready to contribute to your team</p>
             </div>
-            <marquee id="detail" width="100%" scrollamount="10">
-                For more Details and about Projects Contact email: harishagathi@gmail.com 
-               
-            </marquee>
+           
         </div>
     )
 }

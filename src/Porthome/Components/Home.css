@@ -12,8 +12,8 @@
 #main{
     font-size: 20vh;
     color: white;
-    font-family: Didot, 'Bodoni MT', 'Noto Serif Display', 'URW Palladio L', P052, Sylfaen, serif;
-font-weight: normal;
+    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
+font-weight: normal; 
 }
 #main::first-letter{
     color: yellow;
@@ -25,13 +25,7 @@ font-weight: normal;
     font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
 font-weight: normal;
 }
-marquee{
-    margin-top: 17rem;
-    color: white;
-    font-size: 2vh;
-    font-family: 'Segoe Print', 'Bradley Hand', Chilanka, TSCu_Comic, casual, cursive;
-font-weight: normal;    
-}
+
 #detail{
     font-size: 15px;
 }
@@ -44,6 +38,7 @@ font-weight: normal;
 }
 #main{
     margin-left: 1rem;
+    font-size: 15vh;
 }
 #sub{
    font-size: 16px;

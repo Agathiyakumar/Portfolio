@@ -1,13 +1,31 @@
-import React from "react";
+import React ,{ useEffect} from "react";
 import '../Components/Skills.css';
 import css from '../Components/csslogo.webp';
 import Nav from "./Navbar";
+import CLOUDS from 'vanta/src/vanta.fog';
 
 
 const Skills=()=>{
+    useEffect(()=>{
+            CLOUDS({
+                el:'#Skills',
+                mouseControls: true,
+                touchControls: true,
+                gyroControls: false,
+                minHeight: 200.00,
+                minWidth: 200.00,
+                highlightColor: 0x0,
+                midtoneColor: 0x0,
+                lowlightColor: 0x0,
+                baseColor: 0x312b2b,
+                blurFactor: 0.7,
+                zoom: 1.20,
+                speed:5
+            })
+        },[])
 
     return(
-        <div className="Skills">
+        <div id="Skills">
             <Nav/>
             <marquee className="mark" scrollamount="15">
             <div className="skill-1">
@@ -20,12 +38,12 @@ const Skills=()=>{
             </div>
             </marquee>
             <div className="Skill-name">
-            <button class="skill-name" role="button">HTML-5</button>
-            <button class="skill-name" role="button">CSS-3</button>
-            <button class="skill-name" role="button">React</button>
-            <button class="skill-name" role="button">Javascript</button>
-            <button class="skill-name" role="button">MongoDB</button>
-            <button class="skill-name" role="button">ExpressJS</button>
+            <button class="skill-name" >HTML-5</button>
+            <button class="skill-name" >CSS-3</button>
+            <button class="skill-name" >React</button>
+            <button class="skill-name" >Javascript</button>
+            <button class="skill-name" >MongoDB</button>
+            <button class="skill-name" >ExpressJS</button>
             </div>
             
         </div>

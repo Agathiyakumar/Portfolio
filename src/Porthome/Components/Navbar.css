@@ -26,11 +26,11 @@ font-weight: normal;
 }
 @media only screen and (max-width: 480px) {
 #Nav-btn{
-    padding: 1.2rem;
+    padding: 1rem;
     font-size: 16px
 }
 .logo{
-    margin-top: 1.2rem;
+    margin-top: 1rem;
     font-size: 16px;
     margin-right:1rem ;
 }

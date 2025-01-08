@@ -19,7 +19,7 @@ const Portfolio=()=>{
             baseColor: 0x312b2b,
             blurFactor: 0.7,
             zoom: 1.20,
-            speed:2.10
+            speed:5
         })
     },[])
   
