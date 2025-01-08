@@ -63,7 +63,7 @@ font-weight: normal;
 .Skill-name{
     display: flex;
     flex-direction: column;
-    padding: 2rem;
+    
     margin-top: 1rem;
     margin-left: 1.5rem;
 }
