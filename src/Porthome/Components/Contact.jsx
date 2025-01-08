@@ -46,7 +46,7 @@ export default function ContactUs() {
           </Link>
           <div className='social1'>
           <Link to="https://github.com/Agathiyakumar">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Instagram_icon.png/768px-Instagram_icon.png" alt='img' id='insta' />
+          <img src="https://www.instagram.com/_agathi_12/" alt='img' id='insta' />
           </Link>
           <Link to="https://github.com/Agathiyakumar">
           <img src="https://freepnglogo.com/images/all_img/1691832581twitter-x-icon-png.png" alt='img' id='x' />
