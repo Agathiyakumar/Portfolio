@@ -1,50 +1,40 @@
-import React ,{ useEffect} from "react";
+
 import '../Components/Skills.css';
-import css from '../Components/csslogo.webp';
+
 import Nav from "./Navbar";
-import CLOUDS from 'vanta/src/vanta.fog';
 
 
 const Skills=()=>{
-    useEffect(()=>{
-            CLOUDS({
-                el:'#Skills',
-                mouseControls: true,
-                touchControls: true,
-                gyroControls: false,
-                minHeight: 200.00,
-                minWidth: 200.00,
-                highlightColor: 0x0,
-                midtoneColor: 0x0,
-                lowlightColor: 0x0,
-                baseColor: 0x312b2b,
-                blurFactor: 0.7,
-                zoom: 1.20,
-                speed:5
-            })
-        },[])
+
 
     return(
         <div id="Skills">
             <Nav/>
-            <marquee className="mark" scrollamount="15">
-            <div className="skill-1">
-            <img id="skill" src="https://images.seeklogo.com/logo-png/22/1/html5-with-wordmark-color-logo-png_seeklogo-224332.png?v=1957360629703259760"/>
-                <img id='skill' src={css} alt="skill-1"/>
-                <img id="skill" src="https://cdn.iconscout.com/icon/free/png-256/free-react-logo-icon-download-in-svg-png-gif-file-formats--company-brand-world-logos-vol-4-pack-icons-282599.png?f=webp&w=256" alt="skill-1"/>
-                <img id="skill" src="https://logowik.com/content/uploads/images/javascript.jpg" alt="skill-1"/>
-                <img id="skill" src="https://images.seeklogo.com/logo-png/48/1/mongodb-logo-png_seeklogo-481256.png?v=1957221918686265648" alt="skill-1"/>
-                <img id="skill" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWVmXTRybjWV4i9IV85_D7GtvdrJtzYHe8kn5KnJudvtK-OYhpqwTP-2aDiWyKrZvkEtE&usqp=CAU" alt="skill-1"/>
+            <div class="banner">
+        <div class="slider" style={{'--quantity': 7}}>
+            <div class="item" style={{'--position': 1}}><img src="https://static-00.iconduck.com/assets.00/react-icon-512x512-u6e60ayf.png" alt=""/></div>
+            <div class="item" style={{'--position': 2}}><img src="https://www.w3schools.com/whatis/img_css.jpg" alt=""/></div>
+            <div class="item" style={{'--position': 3}}><img src="https://play-lh.googleusercontent.com/rfWOJQVBHoAZ_B43v0ySFlLmJBLtksVGAxGaFRh2ex4nOmNQ86qzG4sYWV63IKrXlvI" alt=""/></div>
+            <div class="item" style={{'--position': 4}}><img src="https://www.opc-router.de/wp-content/uploads/2021/03/mongodb_thumbnail.png" alt=""/></div>
+            <div class="item" style={{'--position': 5}}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTt5943IuioBPR2G35qu1CvX7tBJ_yvlZ6J7w&s" alt=""/></div>
+            <div class="item" style={{'--position': 6}}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEc9A_S6BPxCDRp5WjMFEfXrpCu1ya2OO-Lw&s" alt=""/></div>
+            <div class="item" style={{'--position': 7}}><img src="https://www.drupal.org/files/project-images/screenshot_361.png" alt=""/></div>
+
+        </div>
+        <div class="content">
+            <h1 data-content="SKILLS">
+                SKILLS
+            </h1>
+            <div class="author">
+                <h2>Agathi</h2>
+                <p><b>Web Designer</b></p>
+                <p>
+                    MERN Stack , TailwindCSS (DaisyUI).
+                </p>
             </div>
-            </marquee>
-            <div className="Skill-name">
-            <button class="skill-name" >HTML-5</button>
-            <button class="skill-name" >CSS-3</button>
-            <button class="skill-name" >React</button>
-            <button class="skill-name" >Javascript</button>
-            <button class="skill-name" >MongoDB</button>
-            <button class="skill-name" >ExpressJS</button>
-            </div>
+            <div class="model"></div>
+        </div>
+    </div>
             
         </div>
     )
