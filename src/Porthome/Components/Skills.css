@@ -7,7 +7,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #D2D2D2;
+    background-color:rgb(0, 0, 0);
     background-image:
     repeating-linear-gradient(
         to right, transparent 0 100px,
@@ -106,6 +106,7 @@ body::before{
     font-family: Poppins;
     text-align: right;
     max-width: 200px;
+    color: white;
 }
 .banner .content h2{
     font-size: 3em;
